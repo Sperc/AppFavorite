@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent" android:layout_height="match_parent">
+
+<include
+    layout="@layout/toolbar_main"
+    android:id="@+id/include2" />
+
+<LinearLayout
+    android:layout_width="344dp"
+    android:layout_height="495dp"
+    android:orientation="vertical"
+    android:layout_below="@+id/include2"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="53dp">
+
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Pokaz liste " />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Pokaz Mape" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Dodaj miejsce" />
+
+    <Button
+
+        android:id="@+id/exitButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:text="Exit" />
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
